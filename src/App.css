@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.glassEffect {
+    background: rgba(0, 0, 0, 1);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    filter: brightness(50%);
+}
