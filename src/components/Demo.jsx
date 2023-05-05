@@ -52,10 +52,10 @@ const Demo = () => {
 
 
   return (
-    <section className='mt-16 w-full max-w-xl'>
+    <section className='mt-16 w-full max-w-xl absolute top-80 left-[28%] max-md:left-[10%] max-sm:left-[1%]'>
       {/*searc */}
-      <div className='flex flex-col gap-2 w-full'>
-          <form className='relative flex   justify-center  items-center'
+      <div className='flex flex-col gap-2 w-full '>
+          <form className='relative flex justify-center  items-center'
           onSubmit={handleSubmit}
           >
             <img src={linkIcon}
@@ -125,7 +125,7 @@ const Demo = () => {
                   </h2>
 
                   <div>
-                    <p className='font-inter font-medium text-sm text-gray-700'>
+                    <p className='font-inter font-medium text-md text-white bg-black p-4 rounded-xl'>
                       {article.summary}
                       </p>
                   </div>
