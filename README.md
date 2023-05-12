@@ -6,5 +6,5 @@
 <p>Para testar e ver o poder dessa inteligência artificial, basta copiar uma URL de um blog ou lading page com conteúdo.</p>
 <p>Colar ela no campo de URL dessa aplicação, aguarde alguns segundos e pronto! Um super resumo, totalmente coerente e otimizado para você usar. </p>
 
-<h5><a src="https://textcompressor-ai.netlify.app/">TESTAR AGORA</a></h5>
+<h5><a href="https://textcompressor-ai.netlify.app/">TESTAR AGORA</a></h5>
 
