@@ -82,7 +82,7 @@ const Demo = () => {
         </form>
 
         {/* Browser URL History*/}    
-        <div className='flex flex-col gap-1 max-h-60 overflow-y-auto'>
+        <div className='flex flex-col gap-1 max-h-40 overflow-y-auto'>
           {allArticles.map((item, index) => (
             <div key={`link-${index}`}
                  onClick={() => setArticle(item)}
@@ -118,14 +118,14 @@ const Demo = () => {
               </p>
             ) : (
               article.summary && (
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3 overflow-y-auto'>
                   <h2 className='font-satoshi font-bold text-gray-600 text-xl'>
                     Artigo 
                     <span className=' font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent'> Resumido</span>
                   </h2>
 
                   <div>
-                    <p className='font-inter font-medium text-md text-white bg-black p-4 rounded-xl'>
+                    <p className='font-inter font-medium text-md text-white bg-black p-4 rounded-xl overflow-y-auto'>
                       {article.summary}
                       </p>
                   </div>

@@ -13,7 +13,7 @@ const Hero = () => {
 
             <button
                className='bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500  bg-white; rounded-2xl text-white py-2 px-4 font-semibold'
-               onClick={() => window.open('')}
+               onClick={() => window.open('https://github.com/cadugomes06/OpenAI-textCompressor')}
                >
              Github
             </button>
